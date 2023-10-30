@@ -1,0 +1,99 @@
+/* AdminLogin.css */
+
+/* Background image */
+.form1 {
+  background-image: url("https://assets-v2.lottiefiles.com/a/7a5121f2-1183-11ee-a168-43a745230fd6/6a4zeCQKmN.gif");
+  
+  justify-content: center;
+  align-items: center;  
+  background-repeat: no-repeat;
+  
+  background-size:100%;
+  
+  display: flex;
+  
+  height: 100vh;
+}
+
+.form1::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.7); /* Adjust the opacity here (0.5 is 50% opacity) */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Place it behind the content */
+}
+
+.wel{
+  color: black;
+  font-style: oblique;
+}
+/* Form container */
+.container {
+  
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  max-width: 400px; /* Adjust the maximum width */
+  width: 90%; /* Adjust the width as needed */
+  text-align: center;
+}
+
+/* Main form styles */
+.mainforms {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center form elements horizontally */
+  margin-top: 20px; /* Adjust the top margin as needed */
+}
+
+/* Label styles */
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: black;
+}
+
+/* Input field styles */
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+  width: 100%; /* Input fields take up full width */
+}
+
+input:focus {
+  border-color:black;
+}
+
+/* Login button styles */
+.loginbutton {
+  background-color: lightgray;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.loginbutton:hover {
+  background-color: lightcoral;
+}
+
+/* New user link styles */
+.newuser {
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.newuser:hover {
+  color: #0056b3;
+}

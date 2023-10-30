@@ -1,0 +1,152 @@
+
+
+@import url("https://fonts.oogleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.header {
+  background-color: #f5f5f5;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #f05a28;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero {
+  background-image: url("https://wallpaperaccess.com/full/1692872.jpg");
+  background-size: cover;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0%;
+}
+
+.hero-content {
+  text-align: center;
+  color: #fff;
+  margin: 3rem;
+}
+
+.hero h1 {
+  font-size: 3
+  rem;
+font-weight: 700;
+margin-bottom: 1rem;
+}
+
+.hero p {
+font-size: 1.2rem;
+margin-bottom: 2rem;
+}
+
+.cta-btn {
+  display: inline-block;
+  
+font-size: 1.2rem;
+background-color: #f05a28;
+color: #fff;
+padding: 1rem 2rem;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: all 0.3s ease-in-out;
+}
+
+.cta-btn:hover {
+background-color: #fff;
+color: #f05a28;
+}
+
+.features {
+display: flex;
+justify-content: space-between;
+margin-top: 4rem;
+}
+
+.feature-card {
+max-width: 350px;
+padding: 2rem;
+border: 1px solid #eee;
+border-radius: 5px;
+text-align: center;
+}
+
+.feature-card i {
+font-size: 3rem;
+color: #f05a28;
+margin-bottom: 1rem;
+}
+
+.feature-card h3 {
+font-size: 1.5rem;
+font-weight: 500;
+margin-bottom: 1rem;
+}
+
+.feature-card p {
+font-size: 1.2rem;
+margin-bottom: 2rem;
+}
+
+.footer {
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 1rem;
+margin-top: 4rem;
+}
+
+.footer p {
+font-size: 1.2rem;
+font-weight: 500;
+}
+
+@media (max-width: 768px) {
+.hero {
+height: 400px;
+}
+
+.hero-content {
+margin: 1.5rem;
+}
+
+.features {
+flex-direction: column;
+align-items: center;
+}
+
+.feature-card {
+margin-bottom: 2rem;
+}
+}

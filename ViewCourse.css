@@ -1,0 +1,57 @@
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
+    padding: 20px;
+  }
+  
+  .button-container > div {
+    margin: 20px;
+  } 
+  
+  .button-container button {
+    background-color:#4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    width: 1200px;
+    margin-left: 150px;
+    padding-left: 180px;
+  }
+  
+  .button-container button:hover {
+    background-color: #3e8e41;
+   
+  }
+  
+  .button-container iframe {
+    margin-top: 20px;
+  }
+  .ellipsis {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+
+  /* CSS for the dropdown menu */
+  .dropdown {
+    display: none;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 5px;
+  }
+
+  /* CSS for the individual menu items */
+  .dropdown-item {
+    cursor: pointer;
+    padding: 5px;
+  }

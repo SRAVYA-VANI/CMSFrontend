@@ -1,0 +1,61 @@
+
+nav {
+  
+    background-color: #adb8e3;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: space-between;
+   
+  }
+  
+
+  .nav-container {
+    display: flex;
+    
+   
+    
+  }
+  
+  h3 {
+ font-style:oblique;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+   
+  }
+  
+  .nav-links li {
+    list-style: none;
+    margin-right: 20px;
+    padding: 1x;
+  }
+  
+  .nav-links {
+    color: #020202;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 30px;
+   
+  }
+  
+  .nav-links li a:hover {
+    background-color: #fff;
+    color: #333;
+  }
+ .contact{
+    padding-left: 670px;
+    margin-top: 30px;
+    font-size: larger;
+  text-emphasis-color: black;
+    
+ }
+  .lis{
+    padding-left: 10px;
+  }
+
+  .coursemng{
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+ 
